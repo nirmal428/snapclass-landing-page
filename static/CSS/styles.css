@@ -164,8 +164,8 @@ h4{
     background-color: #333333;
 }
 
-.link-acton{
-    color: var(--text-muted0);
+.link-action{
+    color: var(--text-muted);
     text-decoration: none;
     font-weight: 600;
 }
@@ -539,7 +539,7 @@ h4{
         font-size: 1rem;
     }
 
-    link-action{
+    .link-action{
         font-size: 0.9rem;
     }
     .floating-card{
@@ -574,11 +574,11 @@ h4{
     }
 
     .tech-grid{
-        grid-template-columns: 1rem;
+        grid-template-columns: 1fr;
     }
 
     .tech-card{
-        padding: 150px;
+        padding: 20px;
     }
 
     .teacher-flow{
