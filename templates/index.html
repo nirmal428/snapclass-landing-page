@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnapClass | AI Power Attendance System </title>
-    <link rel="stylesheet" href="/static/css/styles.css">
-    <link rel="icon" type="image/png" href="/static/img/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/logo.png') }}">
+    
 </head>
     <body>
         <nav class="navbar">
             <div class="logo">
-                <img src="/static/img/logo.png" style="height: 32px;" alt="Snapclass Logo">
-                <div class="logo-text">SnapClass</div>
+                <img src="{{ url_for('static', filename='img/logo.png') }}" style="height: 32px;" alt="Snapclass Logo">
+                <div class="logo-text">Snap Class</div>
             </div> 
             
             <div class="nav-links">
@@ -34,7 +34,7 @@
             <div class="badge">
                 Welcome to SnapClass
             </div>
-            <h1>AI Powered <br>Attendance<br><snap>System</snap></h1>
+            <h1>AI Powered <br>Attendance<br><span>System</span></h1>
             <p>Powering next-gen classrooms with AI vision and voice biometrics. Made for educators who need speed, precision, and security.</p>    
             <div class="hero-action">
                 <a href="https://snapclass-attendance-main.streamlit.app/" class="btn-cta">Start AI Attendance
@@ -45,13 +45,13 @@
             </div>
             <div class="floating-card card-left">
                 <div class="card-img">
-                    <img src="/static/img/demo/attendance_record.png">
+                    <img src="{{ url_for('static', filename='img/demo/attendance_record.png') }}">
                 </div>
             </div>
 
             <div class="floating-card card-right">
                 <div class="card-img">
-                    <img src="/static/img/demo/home.png">
+                    <img src="{{ url_for('static', filename='img/demo/home.png') }}">
                 </div>
             </div>   
 
@@ -84,7 +84,7 @@
     
     <section id="journey" class="teacher-flow">
         <div class="flow-container">
-            <divc class="section-tag" style="text-align: center; margin-bottom: 40px; display: block;">--Workflow--</div>
+            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display: block;">--Workflow--</div>
             <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">The Teacher's Journey</h2>
             
             <div class="flow-step">
@@ -96,7 +96,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/teacher_login.png">
+                    <img src="{{ url_for('static', filename='img/demo/teacher_login.png') }}">
                 </div>
             </div>
 
@@ -110,7 +110,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/attendance-dashboad.png">
+                    <img src="{{ url_for('static', filename='img/demo/attendance-dashboad.png') }}">
                 </div>
             </div>
 
@@ -124,7 +124,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/create_new_sub.png">
+                    <img src="{{ url_for('static', filename='img/demo/create_new_sub.png') }}">
                 </div>
             </div>
 
@@ -138,7 +138,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/attendance_report.png">
+                    <img src="{{ url_for('static', filename='img/demo/attendance_report.png') }}">
                 </div>
             </div>
 
@@ -152,7 +152,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/voice-attendance.png">
+                    <img src="{{ url_for('static', filename='img/demo/voice-attendance.png') }}">
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/attendance_record.png">
+                    <img src="{{ url_for('static', filename='img/demo/attendance_record.png') }}">
                 </div>
             </div>
 
@@ -243,7 +243,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/student_face-login.png">
+                    <img src="{{ url_for('static', filename='img/demo/student_face-login.png') }}">
                 </div>
             </div>
 
@@ -257,7 +257,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/new-sub.png">
+                    <img src="{{ url_for('static', filename='img/demo/new-sub.png') }}">
                 </div>
             </div>
 
@@ -271,7 +271,7 @@
                     </P>
                 </div>
                 <div class="flow-image">
-                    <img src="/static/img/demo/student_enrolled_subject.png">
+                    <img src="{{ url_for('static', filename='img/demo/student_enrolled_subject.png') }}">
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
         <div class="footer-grid">  
             <div class="footer-brand">
                 <div class="logo">
-                <img src="/static/img/logo.png" style="height: 32px;" alt="Snapclass Logo">
+                <img src="{{ url_for('static', filename='img/logo.png') }}" style="height: 32px;" alt="Snapclass Logo">
                 <div class="logo-text">Snap Class</div>
             </div>
             <p>
