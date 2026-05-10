@@ -2,7 +2,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Outfit:wght@100..900&display=swap');
 
 :root{
     --bg-main: #F0F4FF;
@@ -129,7 +129,7 @@ h4{
     line-height: 1;
 }
 
-.hero h1 snap{
+.hero h1 span{
     color: var(--primary);
 }
 
@@ -393,7 +393,7 @@ h4{
 }
 
 .footer-brand .logo-text{
-    columns: white;
+    color: white;
 }
 
 .footer-links{
@@ -615,7 +615,7 @@ h4{
 
     .btn-white{
         width: 100%;
-        padding: 1px;
+        padding: 16px;
     }
     .main-footer{
         padding: 60px 1px 30px;
